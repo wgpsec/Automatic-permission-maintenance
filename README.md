@@ -12,6 +12,8 @@ CobaltStrike 上线自动权限维持插件
 
 Socket4
 
+### 主要修改下几个地方
+
 1. 修改文件中的socket端口
 2. 如果使用Server酱功能请填写自己的key
 
