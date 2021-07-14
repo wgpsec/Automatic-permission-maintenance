@@ -20,11 +20,13 @@ CobaltStrike 上线自动权限维持插件
 
 ### 主要修改下几个地方
 
-如果使用Server酱功能请填写自己的key
+1. 如果使用Server酱功能请填写自己的key
 
 ![image](https://user-images.githubusercontent.com/48357278/124566143-5bf11c00-de75-11eb-902f-129ad4fc17e8.png)
 
 ## Spawn
+
+### 主要修改下几个地方
 
 1. 修改判断主机存活的心跳时长，默认为60S
 2. 修改规定存活主机数量，默认为2
