@@ -20,8 +20,7 @@ CobaltStrike 上线自动权限维持插件
 
 ### 主要修改下几个地方
 
-1. 修改文件中的socket端口
-2. 如果使用Server酱功能请填写自己的key
+如果使用Server酱功能请填写自己的key
 
 ![image](https://user-images.githubusercontent.com/48357278/124566143-5bf11c00-de75-11eb-902f-129ad4fc17e8.png)
 
