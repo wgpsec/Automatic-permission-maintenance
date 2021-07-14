@@ -24,5 +24,12 @@ CobaltStrike 上线自动权限维持插件
 
 ![image](https://user-images.githubusercontent.com/48357278/124566143-5bf11c00-de75-11eb-902f-129ad4fc17e8.png)
 
+## Spawn
+
+1. 修改判断主机存活的心跳时长，默认为60S
+2. 修改规定存活主机数量，默认为2
+3. 修改系统位数，默认为64位
+4. 将XXXX修改为监听器名称，后面的系统位数要保持一致
+5. 如果使用Server酱功能请填写自己的key
 
 ### 请自备免杀或使用狼组开源免杀工具
