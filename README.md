@@ -53,7 +53,7 @@ Automatic-permission-maintenance，CobaltStrike 上线自动权限维持插件
   <li> 增加Spawn插件</li>
 </ul>
 
-### 其他
+## 其他
 
 请自备免杀工具，免杀可以使用 [狼组Plat平台](https://plat.wgpsec.org)
 
