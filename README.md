@@ -39,7 +39,7 @@ Automatic-permission-maintenance，CobaltStrike 上线自动权限维持插件
 4. 将XXXX修改为监听器名称，后面的系统位数要保持一致
 5. 如果使用Server酱功能请填写自己的key
 
-## 更新日志
+## 🤖 更新日志
 
 [2021.06.30]
 <ul type="circle"> 
