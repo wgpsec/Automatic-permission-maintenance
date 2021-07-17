@@ -1,5 +1,10 @@
-# Automatic-permission-maintenance
-CobaltStrike 上线自动权限维持插件
+<h1 align="center">APM 自动维权插件 🏒</h1>
+
+[![GitHub stars](https://img.shields.io/github/stars/wgpsec/Automatic-permission-maintenance)](https://github.com/wgpsec/tig) [![GitHub issues](https://img.shields.io/github/issues/wgpsec/Automatic-permission-maintenance)](https://github.com/wgpsec/tig/issues)  [![](https://img.shields.io/badge/author-H0e4a0r1t-blueviolet)](https://github.com/teamssix) [![](https://img.shields.io/badge/WgpSec-%E7%8B%BC%E7%BB%84%E5%AE%89%E5%85%A8%E5%9B%A2%E9%98%9F-blue)](https://github.com/wgpsec)
+
+# 介绍
+
+Automatic-permission-maintenance，CobaltStrike 上线自动权限维持插件
 
 ## 计划任务（Schtasks）
 
@@ -34,10 +39,17 @@ CobaltStrike 上线自动权限维持插件
 4. 将XXXX修改为监听器名称，后面的系统位数要保持一致
 5. 如果使用Server酱功能请填写自己的key
 
-### 请自备免杀或使用狼组开源免杀工具
-### 相关文章请关注公众号：WgpSec狼组安全团队
+### 其他
+
+请自备免杀工具，免杀可以使用 [狼组Plat平台](https://plat.wgpsec.org)
+
+[![Stargazers over time](https://starchart.cc/wgpsec/Automatic-permission-maintenance.svg)](https://starchart.cc/wgpsec/tig)
+
+关注公众号回复 “加群” 即可加入官方交流群
+
+![](https://teamssix.oss-cn-hangzhou.aliyuncs.com/wechat.png)
 
 ## 免责声明
 
 此工具仅作为网络安全攻防研究交流，请使用者遵照网络安全法合理使用！
-如果使用者使用该工具出现非法攻击等行为，与本人无关！
+如果使用者使用该工具出现非法攻击等行为，与作者无关！
