@@ -2,7 +2,7 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/wgpsec/Automatic-permission-maintenance)](https://github.com/wgpsec/tig) [![GitHub issues](https://img.shields.io/github/issues/wgpsec/Automatic-permission-maintenance)](https://github.com/wgpsec/tig/issues)  [![](https://img.shields.io/badge/author-H0e4a0r1t-blueviolet)](https://github.com/teamssix) [![](https://img.shields.io/badge/WgpSec-%E7%8B%BC%E7%BB%84%E5%AE%89%E5%85%A8%E5%9B%A2%E9%98%9F-blue)](https://github.com/wgpsec)
 
-# 介绍
+# 👾 介绍
 
 Automatic-permission-maintenance，CobaltStrike 上线自动权限维持插件
 
@@ -53,7 +53,7 @@ Automatic-permission-maintenance，CobaltStrike 上线自动权限维持插件
   <li> 增加Spawn插件</li>
 </ul>
 
-## 其他
+## 🥷 其他
 
 请自备免杀工具，免杀可以使用 [狼组Plat平台](https://plat.wgpsec.org)
 
