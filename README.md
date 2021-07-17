@@ -39,6 +39,16 @@ Automatic-permission-maintenance，CobaltStrike 上线自动权限维持插件
 4. 将XXXX修改为监听器名称，后面的系统位数要保持一致
 5. 如果使用Server酱功能请填写自己的key
 
+## 更新日志
+
+[2021.06.30]
+<ul> 修改Server酱URL</ul>
+<ul> 增加本地上传模块，可与bitsadmin进行替换</ul>
+
+[2021.07.14]
+<ul> 增加Socks4插件</ul>
+<ul> 增加Spawn插件</ul>
+
 ### 其他
 
 请自备免杀工具，免杀可以使用 [狼组Plat平台](https://plat.wgpsec.org)
