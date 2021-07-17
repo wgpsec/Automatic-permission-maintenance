@@ -63,7 +63,7 @@ Automatic-permission-maintenance，CobaltStrike 上线自动权限维持插件
 
 ![](https://teamssix.oss-cn-hangzhou.aliyuncs.com/wechat.png)
 
-## 免责声明
+## ⚠️免责声明
 
 此工具仅作为网络安全攻防研究交流，请使用者遵照网络安全法合理使用！
 如果使用者使用该工具出现非法攻击等行为，与作者无关！
