@@ -42,12 +42,16 @@ Automatic-permission-maintenance，CobaltStrike 上线自动权限维持插件
 ## 更新日志
 
 [2021.06.30]
-<ul> 修改Server酱URL</ul>
-<ul> 增加本地上传模块，可与bitsadmin进行替换</ul>
+<ul type="circle"> 
+  <li>修改Server酱URL</li>
+  <li>增加本地上传模块，可与bitsadmin进行替换</li>
+</ul>
 
 [2021.07.14]
-<ul> 增加Socks4插件</ul>
-<ul> 增加Spawn插件</ul>
+<ul type="circle">
+  <li> 增加Socks4插件</li>
+  <li> 增加Spawn插件</li>
+</ul>
 
 ### 其他
 
